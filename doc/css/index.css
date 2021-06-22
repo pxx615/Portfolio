@@ -17,7 +17,7 @@ body
   height: 130px;
 }
 
-.navbar-brand
+.navbar-brand, .card h5
 {
   font-family: 'Poppins-Bold', sans-serif;
   font-size: 25px;
@@ -40,6 +40,56 @@ body
   background-color: rgba(255, 140, 98, 0.35);
   transition: 0.2s;
 }
+
+#mainContent
+{
+  background-image: url("../assets/images/wallpaper_edit.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+.col-md-3
+{
+  margin: 80px 0px 0px 0px;
+}
+
+.card
+{
+  background-color:rgb(244, 236, 230);
+  height: 500px;
+  width: 350px;
+  border: 0px;
+}
+
+.card img
+{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0px 0px 50px 0px;
+}
+
+.card hr
+{
+  background-color: rgb(255, 79, 79);
+  height: 2px;
+  width: 50px;
+}
+
+.contentTitle
+{
+  font-family: 'Poppins-Bold', sans-serif;
+  font-size: 100px;
+  padding: 0px;
+}
+
+.content p
+{
+  color: rgb(244, 236, 230);
+}
+
 
 @media (min-width: 768px) {
   .navbar-brand
