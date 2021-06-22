@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Nunito-Light";
+  src: url("../assets/fonts/Nunito/Nunito-Light.ttf");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/Nunito/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Nunito-Light', sans-serif;
+font-family: 'Poppins-SemiBold', sans-serif; */
