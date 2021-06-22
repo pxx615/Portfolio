@@ -1,0 +1,54 @@
+body 
+{
+  font-family: 'Nunito-Light', sans-serif;
+}
+
+#circle
+{
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 79, 79);
+  border-radius: 50%;
+}
+
+.navbar
+{
+  margin-top: 50px;
+  height: 130px;
+}
+
+.navbar-brand
+{
+  font-family: 'Poppins-Bold', sans-serif;
+  font-size: 25px;
+  padding: 0px;
+}
+
+.nav-link, .title
+{
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+#navbarCollapse
+{
+  padding: 0px 10px 0px 0px;
+}
+
+.nav-link:hover
+{
+  background-color: rgba(255, 140, 98, 0.35);
+  transition: 0.2s;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand
+  {
+    font-family: 'Poppins-Bold', sans-serif;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (min-width: 62em) {
+
+}

@@ -9,10 +9,10 @@
 }
 
 @font-face {
-  font-family: "Poppins-SemiBold";
-  src: url("../assets/fonts/Poppins/Poppins-SemiBold.ttf");
+  font-family: "Poppins-Bold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
 }
 
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Nunito-Light', sans-serif;
-font-family: 'Poppins-SemiBold', sans-serif; */
+font-family: 'Poppins-Bold', sans-serif; */
