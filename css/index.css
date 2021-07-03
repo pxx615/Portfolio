@@ -13,8 +13,7 @@ body
 
 .navbar
 {
-  margin-top: 50px;
-  height: 130px;
+  height: 100px;
 }
 
 .navbar-brand, .card h5
@@ -41,14 +40,16 @@ body
   transition: 0.2s;
 }
 
-#mainContent
+#card-container
 {
   background-image: url("../assets/images/wallpaper_edit.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
+  padding: 20px 0px 0px 0px;
 }
+
 
 .col-md-3
 {
@@ -78,16 +79,22 @@ body
   width: 50px;
 }
 
-.contentTitle
-{
-  font-family: 'Poppins-Bold', sans-serif;
-  font-size: 100px;
-  padding: 0px;
-}
-
 .content p
 {
   color: rgb(244, 236, 230);
+  font-family: 'Poppins-Bold', sans-serif;
+  padding: 0px;
+}
+
+.mainTitle
+{
+  font-size: 100px;
+  margin: 0px;
+}
+
+.mainContent
+{
+  font-size: 20px;
 }
 
 
