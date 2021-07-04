@@ -4,6 +4,16 @@
   font-family: 'Poppins-Bold', sans-serif;
 }
 
+.mainTitle
+{
+  margin: 50px;
+}
+
+.cateTitle
+{
+  margin: 20px;
+}
+
 .box
 {
   min-height: 200px;
