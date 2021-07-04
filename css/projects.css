@@ -7,35 +7,39 @@
 .box
 {
   min-height: 200px;
-  width: 700px;
+  width: 900px;
   margin-bottom: 30px;
   background-color: white;
-  padding: 50px;
 }
 
-.info
-{
-  list-style-type: none;
-}
-
-.boxTitle
+.projTitle
 {
   font-family: 'Poppins-Bold', sans-serif;
   color:#0984e3;
 }
 
-.date
+.projImg
 {
-  font-size: 11px;
+  background-size: cover;
+  min-height: 400px;
+  background-repeat: no-repeat;
 }
 
-.description
+.projContent
+{
+  padding: 50px;
+}
+
+.projContent
 {
   font-size: 13px;
 }
 
 @media (min-width: 768px) {
-
+  #chatbot
+  {
+    background-position-x: -200px;
+  }
 }
 
 @media (min-width: 62em) {
