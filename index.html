@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/index.css">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -15,31 +16,28 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-
 </head>
-<body style="margin-top: 100px;">
+
+<body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
-      <div class="container-fluid">
-        <div id="circle"></div>
-        <a class="navbar-brand" href="index.html">Patrick Kan</a>
-        <span class="title">/ Software Developer</span>
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="index.html">About</a>
-            </li>
-            <li class="nav-item" >
-              <a class="nav-link text-dark" href="resume.html" >Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="projects.html">Projects</a>
-            </li>
-          </ul>
-        </div>
+      <a class="navbar-brand" href="index.html"><span id="circle"></span>Patrick Kan<span class="title">/ Software Developer</span></a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <hr>
+        <ul class="navbar-nav ml-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="index.html">About</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link text-dark" href="resume.html" >Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="projects.html">Projects</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
@@ -48,25 +46,25 @@
     <div class="container-fluid">
       <div class="row align-items-md-stretch">
         <div class="col-md-1"></div>
-        <div class="col-md-7" style="background-color:rgb(244, 236, 230); height: 100px;"></div>
+        <div class="col-md-7 backgroundBlock"></div>
         <div class="col-md-4"></div>
       </div>
       <div class="row align-items-md-stretch" id="card-container">
-        <div class="container row" style="margin: auto;">
-          <div class="col-md-6" align="center">
+        <div class="container row" >
+          <div class="col-sm">
             <div class="card">
-              <div class="card-body" align="center">
+              <div class="card-body">
                 <img src="assets/images/pat2.png">
                 <h5 class="card-title">Patrick Kan</h5>
                 <hr>
-                <p class="card-text" style="text-transform: uppercase;">software developer</p>
+                <p class="card-text">software developer</p>
                 <hr>
                 <a href="resume.html" class="btn text-uppercase text-white" style="background-color: rgb(255, 128, 82); font-size: 12px; width: 100px;">Resume</a>
                 <a href="projects.html" class="btn text-uppercase text-white" style="background-color: rgb(255, 128, 82); font-size: 12px; width: 100px;">Projects</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 content" style="padding-left: 30px;">
+          <div class="col-sm content" style="padding-left: 30px;">
             <p class="mainTitle">Hello</p>
             <p class="mainContent">Welcome to my portfolio. My name is Patrick Kan, and my portfolio is a representation of all that I've learned and accomplished, as a software developer.</p>
           </div>
@@ -74,7 +72,7 @@
       </div>
       <div class="row align-items-md-stretch">
         <div class="col-md-1"></div>
-        <div class="col-md-7" style="background-color:rgb(244, 236, 230); height: 100px;"></div>
+        <div class="col-md-7 backgroundBlock"></div>
         <div class="col-md-4">
         </div>
       </div>
@@ -84,24 +82,19 @@
 <footer class="page-footer font-small blue pt-4">
   <div class="container-fluid text-center text-md-left">
     <div class="row">
-      <div class="col-md-7 mt-md-0 mt-3">
+      <div class="col-md-5 mt-md-0 mt-3">
         <p class="text-uppercase">© 2021 by Patrick Kan</p>
       </div>
       <hr class="clearfix w-100 d-md-none pb-3">
-      <div class="col-md-2">
+      <div class="col-md contactList">
         <strong class="text-uppercase">Call</strong>
         <ul class="list-unstyled">
           <li style="word-wrap: break-word;">+1-647-447-6492</li>
         </ul>
-
-      </div>
-      <div class="col-md-2">
         <strong class="text-uppercase">Write</strong>
         <ul class="list-unstyled">
           <li style="word-wrap: break-word;">kanchunmingpatrick@gmail.com</li>
         </ul>
-      </div>
-      <div class="col-md-1">
       </div>
     </div>
   </div>

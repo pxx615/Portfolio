@@ -1,0 +1,11 @@
+.contactList
+{
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .contactList
+  {
+    text-align: right;
+  }
+}

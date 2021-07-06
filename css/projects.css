@@ -8,7 +8,7 @@
 .box
 {
   min-height: 200px;
-  width: 900px;
+  
   margin-bottom: 30px;
   background-color: white;
 }
@@ -24,11 +24,13 @@
   background-size: cover;
   min-height: 400px;
   background-repeat: no-repeat;
+
+  display: none;
 }
 
 .projContent
 {
-  padding: 50px;
+  padding: 40px;
 }
 
 .projContent
@@ -36,10 +38,39 @@
   font-size: 13px;
 }
 
+.projContent ul
+{
+  padding-left: 12px;
+}
+
 @media (min-width: 768px) {
   #chatbot
   {
     background-position-x: -200px;
+  }
+  .box
+  {
+    width: 900px;
+  }
+
+  .projImg
+  {
+    display: inline-block;
+  }
+
+  .projContent
+  {
+    padding: 50px;
+  }
+
+  .projContent ul
+  {
+    padding-left: 32px;
+  }
+
+  .projDesc
+  {
+    padding-left: 20px;
   }
 }
 

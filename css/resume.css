@@ -9,6 +9,11 @@
   margin: 50px;
 }
 
+.btn
+{
+  margin-bottom: 50px;
+}
+
 .cateTitle
 {
   margin: 20px;
@@ -17,37 +22,53 @@
 .box
 {
   min-height: 200px;
-  width: 700px;
+  min-width: 300px;
   margin-bottom: 30px;
   background-color: white;
-  padding: 50px;
+  padding: 20px;
 }
 
 .info
 {
   list-style-type: none;
+  padding-left: 0px;
 }
 
 .boxTitle
 {
   font-family: 'Poppins-Bold', sans-serif;
   color:#0984e3;
+  font-size: 20px;
 }
 
-.date
+.date, .location
 {
   font-size: 11px;
 }
 
-.description
+.description, .description li a
 {
+  padding-left: 13px;
   font-size: 13px;
+  margin: 0px;
 }
 
 @media (min-width: 768px) {
+  .box
+  {
+    width: 700px;
+    padding: 50px;
+  }
 
-}
+  .boxTitle
+  {
+    font-size: 24px;
+  }
 
-@media (min-width: 62em) {
-
+  .description
+  {
+    padding-left: 13px;
+    font-size: 13px;
+    margin: 0px;
+  }
 }
