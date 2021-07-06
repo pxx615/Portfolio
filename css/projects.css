@@ -1,3 +1,8 @@
+.container-fluid
+{
+  background-color:rgb(244, 236, 230);
+}
+
 .mainTitle, .cateTitle
 {
   text-transform: uppercase;

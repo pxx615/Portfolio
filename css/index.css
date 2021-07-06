@@ -61,6 +61,14 @@
   text-transform: uppercase;
 }
 
+.card-body .btn
+{
+  color: #fff;
+  background-color: rgb(255, 128, 82);
+  font-size: 12px;
+  width: 100px;
+}
+
 .content p
 {
   color: rgb(244, 236, 230);
