@@ -1,4 +1,4 @@
-.container-fluid
+main .container-fluid
 {
   background-color:rgb(244, 236, 230);
 }
@@ -14,9 +14,30 @@
   margin: 50px;
 }
 
+.mutedLink
+{
+  color:#b2bec3af;
+  font-size: 15px;
+}
+
+.pageName
+{
+  background-color: #0985e3de;
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 40px;
+  width: 180px;
+  display: block;
+}
+
 .btn
 {
-  margin-bottom: 50px;
+  margin: 10px 0px;
+}
+
+.btnLine
+{
+  width: 100px;
 }
 
 .cateTitle
@@ -64,6 +85,18 @@
 }
 
 @media (min-width: 768px) {
+
+  .mutedLink
+  {
+    font-size: 20px;
+  }
+
+  .pageName
+  {
+    font-size: 60px;
+    width: 260px;
+  }
+
   .box
   {
     width: 700px;

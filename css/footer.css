@@ -8,6 +8,11 @@
   word-wrap: break-word;
 }
 
+.footer .container-fluid
+{
+  background-color: #fff;
+}
+
 @media (min-width: 768px) {
   .contactList
   {
