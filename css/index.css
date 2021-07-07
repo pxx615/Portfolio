@@ -52,8 +52,8 @@
 .card hr
 {
   background-color: rgb(255, 79, 79);
-  height: 2px;
-  width: 50px;
+  height: 1px;
+  width: 80px;
 }
 
 .card-text
@@ -67,6 +67,11 @@
   background-color: rgb(255, 128, 82);
   font-size: 12px;
   width: 100px;
+}
+
+.content
+{
+  text-align: center;
 }
 
 .content p
@@ -106,7 +111,6 @@
   height: 130px;
   vertical-align: bottom;
   margin: 0px;
-
   display: inline;
 }
 
@@ -127,6 +131,7 @@
     min-height: 700px;
   }
 
+  .content, 
   .content p
   {
     text-align: left;
