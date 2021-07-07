@@ -52,6 +52,7 @@ main .container-fluid
   margin-bottom: 30px;
   background-color: white;
   padding: 20px;
+  box-shadow: -10px 10px rgba(211, 211, 211, 0.507);
 }
 
 .info
