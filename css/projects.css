@@ -34,7 +34,6 @@ main .container-fluid
 .box
 {
   min-height: 200px;
-  
   margin-bottom: 30px;
   background-color: white;
 }
@@ -48,10 +47,8 @@ main .container-fluid
 .projImg
 {
   background-size: cover;
-  min-height: 400px;
+  min-height: 250px;
   background-repeat: no-repeat;
-
-  display: none;
 }
 
 .projContent
