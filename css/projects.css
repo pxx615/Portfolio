@@ -27,7 +27,7 @@ main .container-fluid
   color: #fff;
   padding: 0px 10px;
   font-size: 40px;
-  width: 230px;
+  width: 250px;
   display: block;
 }
 
@@ -76,7 +76,7 @@ main .container-fluid
   .pageName
   {
     font-size: 60px;
-    width: 340px;
+    width: 370px;
   }
 
   #chatbot

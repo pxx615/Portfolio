@@ -26,12 +26,14 @@
 
 .card
 {
+  z-index: 1;
   background-color:rgb(244, 236, 230);
   height: 500px;
   width: 300px;
   border: 0px;
   margin: 0 auto;
   text-align: center;
+  box-shadow: -10px 10px rgba(244, 236, 230, 0.705);
 }
 
 .card img
